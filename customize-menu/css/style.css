@@ -1,0 +1,722 @@
+/* CSS Document */
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.eot');
+    src: local('../fonts/Vazir'), url('../fonts/Vazir.woff') format('woff'), url('../fonts/Vazir.ttf') format('truetype'), url('../fonts/Vazir.svg') format('svg');
+}
+
+*{
+    font-family: 'Vazir';
+}
+
+body {
+    font-family: "Vazir";
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    background-image: url("../pics/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu .wsmenu-list .tp-btn, #menu .register .tp-btn, #footer .input-group .btn-newsletter, .register-popup .form-wrapper input[type=submit],
+.login-popup .form-wrapper input[type=submit],
+.consultation-popup .form-wrapper input[type=submit] {
+    border: none;
+    outline: none;
+}
+
+#calculator .shutter-out:before, #special-service .particles-overlay .box figcaption, #news .news-box a {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.register-popup .form-wrapper,
+.login-popup .form-wrapper,
+.consultation-popup .form-wrapper, .register-popup .form-wrapper h5.background:before,
+.login-popup .form-wrapper h5.background:before,
+.consultation-popup .form-wrapper h5.background:before, #calculator .nice-select .list, #news .news-box figcaption {
+    left: 0;
+    right: 0;
+}
+
+#menu .paypal, #menu .visacard, #menu .skrill, #menu .airplane, #menu .internet, #menu .cards, #menu .account, #menu .services, #menu .exchange {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#service-background, #news .news-box .img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu {
+    /*--------------------------------------------------------------------------
+    Mobile CSS
+  --------------------------------------------------------------------------*/
+    /*--------------------------------------------------------------------------
+   medium CSS
+  --------------------------------------------------------------------------*/
+    /*icons*/
+}
+
+#menu .wstmegamenucolr {
+    width: 100%;
+}
+
+#menu .wstliststy02 li {
+    text-align: right !important;
+    font-size: 17px !important;
+}
+
+#menu .wstliststy06 li {
+    text-align: right !important;
+    font-size: 17px !important;
+}
+
+#menu .wstabitem02 li {
+    text-align: right !important;
+    font-size: 17px !important;
+}
+
+#menu .wstliststy02 .wstheading {
+    font-size: 14px !important;
+    color: #0083ca !important;
+}
+
+#menu .wstliststy02 li a {
+    font-size: 13px !important;
+}
+
+#menu .wstabitem li {
+    text-align: right !important;
+    font-size: 17px !important;
+}
+
+#menu .wstliststy01 li {
+    text-align: right !important;
+    width: 50% !important;
+    float: right;
+}
+
+#menu .wstliststy01 li.third-width {
+    width: 33.33% !important;
+}
+
+#menu .wstliststy01 li.full-width {
+    width: 100% !important;
+}
+
+#menu .wstliststy01 li a {
+    font-size: 13px !important;
+}
+
+#menu .wstheading {
+    font-size: 14px !important;
+    color: #0083ca !important;
+}
+
+#menu .megamenu .more {
+    font-size: 14px !important;
+    color: #0083ca;
+    margin: 10px 0;
+    text-align: right;
+    -webkit-transition: ease-in .3s;
+    -o-transition: ease-in .3s;
+    transition: ease-in .3s;
+}
+
+#menu .megamenu .more:hover {
+    color: #0067a3;
+    text-decoration: none;
+    -webkit-transition: ease-in .3s;
+    -o-transition: ease-in .3s;
+    transition: ease-in .3s;
+}
+
+#menu .wstitemright {
+    right: 206px !important;
+}
+
+#menu .wsshoptabing {
+    text-align: right;
+}
+
+#menu .wstabitem > li > a {
+    float: right;
+    border: none !important;
+    /*line-height: 30px;*/
+}
+
+#menu .wstabitem > li.wsshoplink-active > a {
+    /*border-right: 3px solid red !important;*/
+    /*border-left: 3px solid #f8f8f8 !important;*/
+    z-index: 1;
+}
+
+#menu .wstabitem > li > a {
+    /*border-left: 3px solid #fff !important;*/
+    z-index: 1;
+}
+
+#menu .wsmenucontainer.clearfix {
+    background-color: transparent;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+#menu .animated-arrow {
+    margin: 10px 5px 0 25px;
+    padding: 15px 0px;
+    width: 25px;
+    right: 0;
+    top: 0;
+}
+
+#menu .scrolled {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 6px 20px 0;
+    width: 35px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#menu .animated-arrow span, #menu .animated-arrow span:before, #menu .animated-arrow span:after {
+    height: 4.5px;
+}
+
+#menu .wsmenu {
+    float: right;
+    margin-top: 30px;
+    width: 69%;
+}
+
+#menu .wsmenu-list {
+    text-align: right;
+}
+
+#menu .wsmenu-list .active span {
+    color: #dddddd !important;
+}
+
+#menu .wsmenu-list > li {
+    float: right;
+}
+
+#menu .wsmenu-list > li > a {
+    padding: 12px 10px;
+}
+
+#menu .wsmenu-list > li > .navtext > span {
+    text-align: right;
+    line-height: 30px;
+    font-size: 17px !important;
+    color: #fff;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
+
+#menu .wsmenu-list > li > .navtext > span:hover {
+    color: #dddddd;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
+
+#menu .wsmenu-list > li > .navtext > span i {
+    font-size: 12px;
+    margin: 0 10px 0 0;
+}
+
+#menu .wsmenu-list .tp-btn {
+    font-size: 17px !important;
+    padding: 0px 10px;
+    margin-top: -5px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu .wsmenu-list .flash {
+    border-color: #fff;
+    overflow: hidden;
+    color: #ffe000 !important;
+}
+
+#menu .wsmenu-list .flash .insider {
+    background-color: #fff;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: -135px;
+    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+}
+
+#menu .wsmenu-list .flash:hover {
+    background-color: #1c2b76;
+    border-color: transparent;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+
+#menu .wsmenu-list .flash:hover .insider {
+    -webkit-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    left: 135px;
+}
+
+#menu .smallogo {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 9px 15px;
+    position: fixed;
+    z-index: 101;
+    height: 52px;
+    background: transparent;
+    -webkit-box-shadow: 0 0 0 0;
+    -moz-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+
+#menu .smllogo {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 15%;
+    margin-top: 40px;
+}
+
+#menu .register {
+    padding: 0;
+    margin: 0;
+    float: right;
+    width: 16%;
+    margin-top: 40px;
+}
+
+#menu .register .tp-btn {
+    padding: 2px 15px;
+    margin: 0px 5px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    position: relative;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu .register .flash {
+    border-color: #fff;
+    overflow: hidden;
+    color: #fff;
+}
+
+#menu .register .flash .insider {
+    background-color: #fff;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: -135px;
+    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+}
+
+#menu .register .flash:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: transparent;
+    color: #fff;
+}
+
+#menu .register .flash:hover .insider {
+    -webkit-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    left: 135px;
+}
+
+#menu .btn-primary {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 15px;
+    margin: 5px 5px;
+}
+
+#menu .callusicon .btn {
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+#menu .callusicon .btn.registering {
+    margin: 15px 35px 15px 5px;
+}
+
+#menu .callusicon .btn.login {
+    margin: 15px 5px;
+}
+
+#menu .logo img {
+    margin: 15px;
+    width: 100px !important;
+    float: left;
+}
+
+@media screen and (max-width: 990px) {
+    #menu .smallogo {
+        background: transparent;
+    }
+
+    #menu .wstabitem > li > a {
+        line-height: 20px;
+    }
+
+    #menu .wsmenu-list .active span {
+        color: #9e9e9e !important;
+        text-shadow: none;
+    }
+
+    #menu .wsmenu-list > li > .navtext > span {
+        text-align: right;
+        line-height: 0px;
+        font-size: 13px !important;
+        color: #000;
+    }
+
+    #menu .wsmenu-list > li > .navtext > span:hover {
+        color: #6a6a6a;
+        text-shadow: none;
+    }
+
+    #menu .wsmenu-list > li > .navtext > span i {
+        display: none;
+    }
+
+    #menu .btn-primary {
+        display: none;
+    }
+
+    #menu .wsmenu {
+        margin-top: 0px;
+        width: 100%;
+        -webkit-box-shadow: 0 0 5px #ccc;
+        box-shadow: 0 0 5px #ccc;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1366px) {
+    #menu .smllogo {
+        width: 23%;
+    }
+
+    #menu .register {
+        width: 17%;
+    }
+
+    #menu .wsmenu {
+        width: 60%;
+    }
+
+    #menu .wsmenu-list > li > a {
+        padding: 12px 5px;
+    }
+
+    #menu .wsmenu-list > li > .navtext > span {
+        font-size: 14px !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+    #menu {
+        /*hamburger menu*/
+    }
+
+    #menu .wstliststy02 li {
+        text-align: right !important;
+    }
+
+    #menu .wstliststy06 li {
+        text-align: right !important;
+    }
+
+    #menu .wstabitem02 li {
+        text-align: right !important;
+    }
+
+    #menu .wstabitem li {
+        text-align: right !important;
+    }
+
+    #menu .wstliststy01 li {
+        text-align: right !important;
+        width: 100% !important;
+        float: right;
+    }
+
+    #menu .wstliststy02 .btn.btn-primary {
+        display: block;
+        outline: none;
+        background-color: #0083ca;
+        color: #fff;
+        padding: 5px 10px;
+        margin: 10px 0;
+        -webkit-transition: ease-in 0.3s;
+        -o-transition: ease-in 0.3s;
+        transition: ease-in 0.3s;
+    }
+
+    #menu .wstliststy02 .btn.btn-primary:hover {
+        background-color: #0067a3;
+        -webkit-transition: ease-in 0.3s;
+        -o-transition: ease-in 0.3s;
+        transition: ease-in 0.3s;
+    }
+
+    #menu .wstabitem li a:after {
+        right: 23px;
+    }
+
+    #menu #overlapblackbg {
+        left: 0;
+    }
+
+    #menu .callusicon {
+        right: 15px;
+    }
+
+    #menu .wsoffcanvasopener .wsmain {
+        right: 0px;
+    }
+
+    #menu .wsmain {
+        right: -270px;
+    }
+
+    #menu .wsmenu-click {
+        right: 81% !important;
+        border-right: 1px solid #ccc;
+        border-left: 0 !important;
+    }
+
+    #menu .wsmenu-click02 {
+        right: 81% !important;
+    }
+
+    #menu .wsoffcanvasopener .animated-arrow {
+        right: 270px;
+        top: 0;
+        width: 35px;
+        height: 35px;
+        padding: 8px 6px 20px 0px !important;
+        margin: 10px;
+    }
+
+    #menu .wsmenu-submenu-sub {
+        right: 100% !important;
+    }
+
+    #menu .wsmenu > .wsmenu-list > li > a > .fa {
+        margin-right: 11px;
+    }
+
+    #menu .wsmenu-submenu-sub-sub {
+        right: 80% !important;
+    }
+
+    #menu .wsmenu > .wsmenu-list > li > a {
+        padding: 25px !important;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1440px) {
+    #menu .wstabitem > li {
+        width: 800px;
+    }
+
+    #menu .wstitemright {
+        right: 185px !important;
+        width: 71%;
+    }
+
+    #menu .tp-btn {
+        margin-top: 5px;
+    }
+
+
+}
+
+#menu .paypal {
+    background-image: url("../pics/paypal.png");
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 40px;
+}
+
+#menu .visacard {
+    background-image: url("../pics/visa.png");
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 40px;
+}
+
+#menu .skrill {
+    background-image: url("../pics/skrill.png");
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 40px;
+}
+
+#menu .airplane {
+    background-image: url("../pics/airplane.png");
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 40px;
+}
+
+#menu .internet {
+    background-image: url("../pics/internet.png");
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 40px;
+}
+
+#menu .cards {
+    background-image: url("../pics/cards.png");
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 40px;
+}
+
+#menu .account {
+    background-image: url("../pics/account.png");
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 40px;
+}
+
+#menu .services {
+    background-image: url("../pics/services.png");
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 40px;
+}
+
+#menu .exchange {
+    background-image: url("../pics/exchange.png");
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 40px;
+}
+
+/**********************/
+
+.wsshoplink-active > .navtext{
+    border:solid red 1px !important;
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    #menu .wstabitem > li.wsshoplink-active > a:after {
+        content: '\25BA';
+        position: absolute;
+        color:red;
+        top: 10px;
+        left:10px;
+        transition:0.5s;
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        font-size: 15px;
+    }
+
+    .navtext:hover:after {
+        width: 100%;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    .navtext:after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #ff5722;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: -webkit-transform 250ms ease-in-out;
+        transition: -webkit-transform 250ms ease-in-out;
+        transition: transform 250ms ease-in-out;
+        transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+    }
+
+    .wstitemright {
+
+        border-right:solid red 3px;
+    }
+
+}
+
+.d-none{
+    display: none;
+}
+
+.cat > a{
+    width:175px!important;
+}
+.subCat{padding: 15px 0px}
+
+
+
+
+
+/*@media screen and (max-width: 1360px) {*/
+    /*.cat > a{*/
+        /*width: 175px!important;*/
+    /*}*/
+/*}*/
+
